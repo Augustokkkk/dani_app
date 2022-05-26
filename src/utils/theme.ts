@@ -38,6 +38,7 @@ export const GlobalStyle = createGlobalStyle`
 		font-family: 'Montserrat', sans-serif;
 		background-color: ${({ theme }) => theme.colors.rosewater};
 		color: ${({ theme }) => theme.colors.black_3};
+		overflow-x: hidden;
 	}
 	a {
 		text-decoration: none;

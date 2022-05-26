@@ -8,7 +8,6 @@ export const MainContainer = styled.main`
 	text-align: center;
 	overflow: hidden;
 	width: 100vw;
-	/* height: 100vh; */
 `
 
 export const Header = styled.header`
@@ -21,7 +20,7 @@ export const Header = styled.header`
 	justify-content: space-between;
 	align-items: center;
 	line-height: 1.75rem;
-	color: ${(props) => props.theme.colors.gray_0};
+	color: ${(props) => props.theme.colors.gray_2};
 
 	h2 {
 		font-size: 1.4rem;
